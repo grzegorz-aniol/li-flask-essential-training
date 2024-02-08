@@ -1,3 +1,5 @@
+.idea
+.pytest_cache
 urlshort/static/user_files/**
 Ex_Files_Flask_EssT.zip
 urls.json

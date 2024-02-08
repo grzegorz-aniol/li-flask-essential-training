@@ -5,6 +5,7 @@ from flask import render_template, request, redirect, url_for, flash, abort, ses
 
 bp = Blueprint('urlshort', __name__)
 
+
 @bp.route('/')
 def home():
     return render_template('home.html', codes=session.keys())
